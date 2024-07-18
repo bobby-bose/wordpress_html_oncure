@@ -65,10 +65,9 @@
         .thirdcontainer {
             display: flex;
             width: 100%;
+            margin-top: 10%;
         }
-        .thirdleft-column {
-            margin-left: 20%;
-        }
+       
         .thirdleft-column, .thirdright-column {
             flex: 1;
             padding: 20px;
@@ -94,13 +93,13 @@
     }
     .embracearesilientfuturerowimages {
     display: flex;
-    justify-content: space-around; /* Adjusts the spacing between images */
+    justify-content: space-between; /* Adjusts the spacing between images */
     align-items: center; /* Centers the images vertically if they have different heights */
 }
 
 .embracearesilientfuturerowimages img {
-    max-width: 100%; /* Ensures images are responsive */
-    height: auto; /* Maintains the aspect ratio */
+   width:280px;
+   height:220px;
 }
 
 .onlinetumourboard{
@@ -110,7 +109,7 @@
 }
 .onlinetumourboardcolumn{
   padding: 10px;
-        border: 1px solid #ccc;
+        
 }
 .onlinetumourboardimage{
   width:80%;
@@ -122,7 +121,7 @@
 }
 .appointmentsecondcontent{
   padding: 10px;
-  border: 1px solid #ccc;
+  
 }
 .completeassessmentprogram{
   display: grid;
@@ -131,7 +130,7 @@
 }
 .completeassessmentprogramcolumn{
   padding: 10px;
-  border: 1px solid #ccc;
+
 }
 .medicalnutritionplanning{
   display: grid;
@@ -140,7 +139,7 @@
 }
 .medicalnutritionplanningcolumn{
   padding: 10px;
-  border: 1px solid #ccc;
+  
 }
 .appointmentthird{
   display: grid;
@@ -149,7 +148,7 @@
 }
 .appointmentthirdcontent{
   padding: 10px;
-  border: 1px solid #ccc;
+ 
 }
 .appointmentthirdcolumn{
   display: flex;
@@ -162,7 +161,7 @@
 }
 .sophisticatedpediatricdentistrycolumn{
   padding: 10px;
-  border: 1px solid #ccc;
+  
 }
 .smilecorrection{
   display: grid;
@@ -171,5 +170,16 @@
 }
 .smilecorrectioncolumn{
   padding: 10px;
-  border: 1px solid #ccc;
+  
+}
+.simplemargin{
+  padding: 0 10%;
+}
+.bookanappointment{
+  align-content: center;
+  font-size: 25px;
+  font-family: 'Pathway Extreme';
+}
+.embracearesilientfuturerowimagessection{
+  margin-top: 5%;
 }
