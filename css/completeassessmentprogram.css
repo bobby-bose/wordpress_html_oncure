@@ -1,0 +1,15 @@
+
+
+.completeassessmentprogram{
+    display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          gap: 10px; /* Adjust as needed */
+          margin-top: 8%;
+  }
+  .completeassessmentprogramcolumn{
+    padding: 10px;
+    width: 80%;
+  }
+  .completeassessmentprogram .title{
+    font-size: 3rem;
+  }

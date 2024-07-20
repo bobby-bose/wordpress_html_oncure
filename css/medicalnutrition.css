@@ -1,0 +1,12 @@
+    
+
+.medicalnutritionplanning{
+    display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          gap: 10px; /* Adjust as needed */
+          margin-top: 8%;
+  }
+  .medicalnutritionplanningcolumn{
+    padding: 10px;
+    
+  }

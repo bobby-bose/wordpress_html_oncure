@@ -1,0 +1,23 @@
+.gotquestionforus{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px; 
+  }
+  .gotquestionforuscolumn{
+    padding: 10px;
+   
+  }
+
+  .gotaquestionforusform {
+    margin-bottom: 15px;
+}
+.gotaquestionforusforminput,
+.gotaquestionforusformtextarea {
+    width: 100%;
+    box-sizing: border-box;
+}
+.gotaquestionforusformemail
+.gotaquestionforusformmessage{
+  font-family: 'Pathway Extreme';
+    font-size: 22px;
+}

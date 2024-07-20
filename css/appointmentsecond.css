@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Pathway+Extreme');
+.appointmentsecond{
+    display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          gap: 10px; 
+          margin-top:5%;
+  }
+  .appointmentsecondcontent{
+    padding: 10px;
+    
+  }
+  .appointmentbutton{
+    background-color: #1AA8CC;
+padding: 13px 20px;
+border-radius: 20px;
+font-family: 'Pathway Extreme';
+font-size: 22px;
+}
+
+
+.appointmentsecondimage{
+    width: 100%;
+}
+
+.appointmentsecondcolumn .first{
+    margin-left: 20%;
+}
+
+.appointmentsecondcolumn img{
+    width:100%;
+}
+
+.appointmentsecondcolumn .column{
+    display: flex;
+  flex-direction: column;
+}
+.appointmentsecondcolumn .first .content p{
+  margin-bottom: 0;
+}
+
+
+
+.appointmentsecondcolumn .first .content .wellcure{
+  color: #12697D;
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: 'Pathway Extreme';
+}
+.appointmentsecondcolumn .first .content .your{
+  color: #12697D;
+  font-size: 7rem;
+  font-weight: bold;
+  font-family: 'Pathway Extreme';
+}
+.appointmentsecondcolumn .first .content .healthmatter{
+  color: #12697D;
+  font-size: 3rem;
+}
+.appointmentsecondcolumn .first .content .ourlifestyle{
+  margin-bottom: 0;
+  font-size: 1.5rem;
+  margin-top: 5%;
+}

@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Pathway+Extreme');
+.img-fluid{
+    width:100%;
+}
+
+
+
+@media (max-width: 767.98px) { 
+   .image-container-desktop{
+    display: none;
+   }
+   .image-container-mobile{
+    position: relative;
+    display: inline-block;
+    width:100%;
+   }
+   .image-container-mobile img {
+    display: block;
+  }
+  .image-container-mobile .btn {
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    padding: 15px 0;
+    font-family:'Pathway Extreme', sans-serif;
+    font-size: large;
+    background-color: #1AA8CC;
+    padding: 8px 10px;
+    border-radius: 20px;
+  }
+  
+ 
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { /* Tablet */
+    .image-container-desktop{
+        position: relative;
+        display: inline-block;
+        width:100%;
+       
+       }
+       .image-container-mobile{
+        display: none;
+       }
+       .image-container-desktop img {
+        display: block;
+      }
+      .image-container-desktop .btn {
+          position: absolute;
+      top: 85%;
+      left: 22%;
+      transform: translate(-50%, -50%);
+      width: 27%;
+      }
+       .appointmentbuttondesktop{
+        background-color: #1AA8CC;
+        padding: 8px 10px;
+        border-radius: 20px;
+        font-family: 'Pathway Extreme';
+        font-size: 12px;
+       }
+    }
+
+
+@media (min-width: 992px) { /* Desktop */
+    .image-container-desktop{
+        position: relative;
+        display: inline-block;
+        width:100%;
+       
+       }
+       .image-container-mobile{
+        display: none;
+       }
+       .image-container-desktop img {
+        display: block;
+      }
+      .image-container-desktop .btn {
+          position: absolute;
+      top: 85%;
+      left: 22%;
+      transform: translate(-50%, -50%);
+      width: 27%;
+      
+        font-family:'Pathway Extreme', sans-serif;
+        font-size: large;
+        background-color: #1AA8CC;
+        padding: 10px 10px;
+        border-radius: 20px;
+      }
+    }

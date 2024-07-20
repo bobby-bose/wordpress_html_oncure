@@ -1,0 +1,72 @@
+.onlinetumourboard-desktop{
+  display:block;
+    display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          gap: 10px; /* Adjust as needed */
+  }
+  .onlinetumourboard-mobile {
+display:none;
+  }
+  .onlinetumourboardcolumn-desktop{
+    padding: 10px;
+          
+  }
+  .onlinetumourboardimage-desktop{
+    width:100%;
+    height:100%;
+  }
+  .onlinetumourboard-desktop-title{
+    font-size: 3rem;
+  font-weight: bold;
+  color: #12697D;
+}
+.onlinetumourboard-desktop-text {
+  margin-top: 1%;
+  font-size: 1rem;
+}
+
+
+
+
+
+
+@media (max-width: 767.98px) { 
+
+
+  .onlinetumourboard-desktop {
+    display:none;
+  }
+
+.onlinetumourboard-mobile {
+  display:block;
+  margin-top: 10vh; /* Use vh for vertical margin */
+  text-align: center; /* Center-align the content */
+  position: relative;
+  display: inline-block; /* Ensure inline block to prevent full width */
+  width: 80vw; /* Set the width in viewport units for responsiveness */
+}
+
+.onlinetumourboardimage-mobile {
+  width: 100%; /* Make the image responsive */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.onlinetumourboard-mobile-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.7); /* Optional: Add background for better readability */
+  padding: 1vh 2vw; /* Responsive padding */
+  font-size: 2vh; /* Responsive font size */
+  font-weight: bold;
+  width: 100%; /* Ensure the title spans the width of the image */
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.onlinetumourboard-mobile-text {
+  margin-top: 2vh; /* Responsive top margin */
+  font-size: 2vh; /* Responsive font size */
+  padding: 1vh 2vw; /* Responsive padding */
+}
+}

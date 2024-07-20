@@ -1,48 +1,6 @@
 
-    .navbar-nav {
-      display: flex;
-      justify-content: center;
-      flex: 1;
-    }
-    .nav-link {
-      padding-right: 20px;
-      padding-left: 20px;
-      font-size:x-large;
-    }
-    .navbar-brand {
-      padding-right: 40px;
-    }
-    .navbar {
-      padding-left: 20px;
-      padding-right: 20px;
-      padding-top: 20px;
-      padding-bottom: 20px;
-    }
-    .customnavbutton{
-        background-color: #1AA8CC;
-    padding: 13px 20px;
-    border-radius: 20px;
-    font-family: 'Pathway Extreme';
-    font-size: 22px;
-    }
-    .image-container {
-      position: relative;
-      display: inline-block;
-      width:100%;
-    }
-    .image-container img {
-      display: block;
-    }
-    .image-container .btn {
-        position: absolute;
-    top: 85%;
-    left: 22%;
-    transform: translate(-50%, -50%);
-    width: 27%;
-    }
-    .img-fluid{
-        width:100%;
-    }
+    
+    
     .appointmentbutton{
         background-color: #1AA8CC;
     padding: 13px 20px;
@@ -50,136 +8,13 @@
     font-family: 'Pathway Extreme';
     font-size: 22px;
     }
-    .threeimagescontainer {
-        display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 80px;
-    padding: 10px;
-    margin: 0px 267px;
-        }
-        .threeimagescontainer img {
-            max-height: 100%;
-            width:15%;
-        }
-        .thirdcontainer {
-            display: flex;
-            width: 100%;
-            margin-top: 10%;
-        }
-       
-        .thirdleft-column, .thirdright-column {
-            flex: 1;
-            padding: 20px;
-        }
-        .thirdright-column {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-        }
-        .secondlinesecondcolumnthirdsection{
-            display: flex;
-            flex-direction: row;
-        }
-        .embracearesilientfuture {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 10px; /* Adjust as needed */
-    }
-
-    .embracearesilientfuturecolumn {
-        padding: 10px;
-       
-    }
-    .embracearesilientfuturerowimages {
-    display: flex;
-    justify-content: space-between; /* Adjusts the spacing between images */
-    align-items: center; /* Centers the images vertically if they have different heights */
-}
-
-.embracearesilientfuturerowimages img {
-   width:280px;
-   height:220px;
-}
-
-.onlinetumourboard{
-  display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 10px; /* Adjust as needed */
-}
-.onlinetumourboardcolumn{
-  padding: 10px;
-        
-}
-.onlinetumourboardimage{
-  width:80%;
-}
-.appointmentsecond{
-  display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 10px; /* Adjust as needed */
-}
-.appointmentsecondcontent{
-  padding: 10px;
+    
   
-}
-.completeassessmentprogram{
-  display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 10px; /* Adjust as needed */
-}
-.completeassessmentprogramcolumn{
-  padding: 10px;
 
-}
-.medicalnutritionplanning{
-  display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 10px; /* Adjust as needed */
-}
-.medicalnutritionplanningcolumn{
-  padding: 10px;
-  
-}
-.appointmentthird{
-  display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 10px; /* Adjust as needed */
-}
-.appointmentthirdcontent{
-  padding: 10px;
- 
-}
-.appointmentthirdcolumn{
-  display: flex;
-  flex-direction: column;
-}
-.sophisticatedpediatricdentistry{
-  display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 10px; /* Adjust as needed */
-}
-.sophisticatedpediatricdentistrycolumn{
-  padding: 10px;
-  
-}
-.smilecorrection{
-  display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 10px; /* Adjust as needed */
-}
-.smilecorrectioncolumn{
-  padding: 10px;
-  
-}
 .simplemargin{
   padding: 0 10%;
 }
-.bookanappointment{
-  align-content: center;
-  font-size: 25px;
-  font-family: 'Pathway Extreme';
-}
+
 .embracearesilientfuturerowimagessection{
   margin-top: 5%;
 }

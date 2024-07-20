@@ -1,0 +1,25 @@
+.sophisticatedpediatricdentistry{
+    display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          gap: 10px; /* Adjust as needed */
+          margin-top: 8%;
+  }
+  .sophisticatedpediatricdentistrycolumn{
+    padding: 10px;
+    
+  }
+
+
+
+
+.sophisticatedpediatricdentistry img{
+  width: 100%;
+}
+
+.sophisticatedpediatricdentistry h5{
+margin-top: 5%;
+}
+
+.sophisticatedpediatricdentistrycolumn img{
+  height: 380px;
+}

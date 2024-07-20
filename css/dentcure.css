@@ -1,0 +1,49 @@
+.dentcure{
+    display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          gap: 10px; 
+          margin-top:5%;
+  }
+  .dentcurecontent{
+    padding: 10px;
+    
+  }
+  .appointmentbutton{
+    background-color: #1AA8CC;
+padding: 13px 20px;
+border-radius: 20px;
+font-family: 'Pathway Extreme';
+font-size: 22px;
+}
+
+
+.dentcureimage{
+    width: 100%;
+}
+
+.dentcurecolumn .first{
+    margin-left: 20%;
+}
+
+.dentcurecolumn img{
+    width:100%;
+}
+
+.dentcurecolumn .column{
+    display: flex;
+  flex-direction: column;
+}
+
+.appointmentthird{
+  display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px; /* Adjust as needed */
+}
+.appointmentthirdcontent{
+  padding: 10px;
+ 
+}
+.appointmentthirdcolumn{
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Pathway+Extreme');
+@media (min-width: 992px) { /* Desktop */
+    
+    .thirdcontainer-desktop-title {
+        /* font-family:'Pathway Extreme', sans-serif; */
+        font-size: 2.5rem;
+      
+    }
+    .thirdcontainer-desktop-title span {
+        display: block;
+      }
+   
+
+    .thirdcontainer-desktop-title .one {
+        font-weight: bolder;
+        background: linear-gradient(to left, #93C83D 0%, #146172 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+
+    .thirdcontainer-desktop-title .two {
+        font-weight: bolder;
+        background: linear-gradient(to left, #93C83D 0%, #146172 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+    .thirdcontainer-mobile{
+        display:none;
+    }
+    .thirdcontainer-desktop {
+        display: flex;
+        width: 100%;
+        margin-top: 10%;
+    }
+   
+    .thirdleft-column-desktop, .thirdright-column-desktop {
+        flex: 1;
+        padding: 20px;
+    }
+    .thirdright-column-desktop {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .secondlinesecondcolumnthirdsection-desktop{
+        display: flex;
+        flex-direction: row;
+        margin: 10px 0;
+    }
+    .howdowehelpyoupreventcancer{
+        font-weight: bolder;
+        background: linear-gradient(to left, #93C83D 0%, #146172 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        font-size:2.5rem;
+    }
+    .telecall-desktop .icon{
+        width:80%;
+        height:80%;
+    }
+    .bookanappointment-desktop{
+        align-content: center;
+        font-size: 25px;
+        font-family: 'Pathway Extreme';
+      }
+      .explorepersonalizedthirdcontainer-desktop{
+        margin-top:20px;
+      }
+}
+
+@media (max-width: 767.98px) 
+/* this is mobile */
+
+{ 
+    .thirdcontainer-desktop{
+        display:none;
+    }
+    .thirdcontainer-mobile-title span {
+        display: block;
+        font-family:'Pathway Extreme', sans-serif;
+        font-size: 2rem;
+      }
+      .thirdleft-column-mobile p{
+        text-align: center;
+      }
+   
+    .thirdcontainer-mobile-title  {
+        font-weight: bolder;
+        background: linear-gradient(to left, #93C83D 0%, #146172 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        text-align: center;
+    }
+    .thirdcontainer-mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .thirdleft-column-mobile {
+        margin-bottom: 20px;
+    }
+    
+    .thirdleft-column-mobile img {
+        width: 90%;
+        margin-top: 10%;
+    }
+    
+    .thirdright-column-mobile {
+        text-align: center;
+    }
+    
+    .thirdright-column-mobile img {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .secondlinesecondcolumnthirdsection-mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    
+    .telecall-mobile {
+        margin-bottom: 5px;
+    }
+    
+    span {
+        font-family: 'Inter';
+        font-weight: lighter;
+    }
+    
+  
+ }
+
+
