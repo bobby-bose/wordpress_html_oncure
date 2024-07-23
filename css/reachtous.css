@@ -23,9 +23,17 @@
     height: 100%;
     border: 0;
 }
-/* .reachtous-mobile{
+.reachtous-mobile{
     display:none; 
-} */
+}
+ .reachtous-desktop{
+    font-size: 3rem;
+    line-height: 1;
+    margin-bottom: 3%;
+    font-family: 'Pathway Extreme';
+    color: #12697D;
+    font-weight: 500;
+ }
 }
 
 @media (max-width: 767.98px) { 

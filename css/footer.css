@@ -20,7 +20,22 @@
     margin-top: 5%;
     padding: 5%;
 }
-
+.uuu-desktop{
+    width: 34%;
+    margin-bottom: 10%;
+}
+.img-fluid-footer{
+    width:80%;
+}
+.footer-first-desktop{
+    display:flex;
+    flex-direction: column;
+}
+.footer-main-desktop{
+    display:flex;
+    flex-direction: row;
+    margin-bottom:5%;
+}
 
 }
 @media (max-width: 767.98px) { 
@@ -31,7 +46,8 @@
     background-color: #16677a;
     color: white;
     margin-top: 5%;
-    padding: 5%;
+    padding-top: 10%;
+    padding-left: 6%;
 }
 .img-fluid-mobile{
     width:70%;
@@ -87,5 +103,13 @@ margin-top:10%;
 }
 .termsofuse-mobile{
     margin-bottom: 0;
+}
+.appointmentbutton-mobile-footer{
+    background-color: #1AA8CC;
+    padding: 1rem 5.5rem;
+    border-radius: 20px;
+    font-family: 'Pathway Extreme';
+    font-size: 1rem;
+  
 }
 }

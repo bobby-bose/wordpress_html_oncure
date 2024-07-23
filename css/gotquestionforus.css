@@ -26,7 +26,19 @@
 .gotquestionforus-mobile{
 display:none;
 }
-
+.form-final{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.gotaquestion-desktop-title{
+  font-size: 3rem;
+    line-height: 1;
+    margin-bottom: 3%;
+    font-family: 'Pathway Extreme';
+    color: #12697D;
+    font-weight: 500;
+}
 }
 @media (max-width: 767.98px) { 
   .gotquestionforus{
@@ -58,6 +70,7 @@ display:none;
 .form-final{
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 .gotaquestion-mobile{
   font-size:1.5rem;
@@ -69,5 +82,12 @@ display:none;
 }
 .form-title{
   margin-bottom: 0;
+}
+.appointmentbutton-gotaquestion-mobile{
+  background-color: #1AA8CC;
+  
+  border-radius: 10px;
+  font-family: 'Pathway Extreme';
+  font-size: 1.2rem;
 }
 }

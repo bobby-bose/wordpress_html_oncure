@@ -1,10 +1,44 @@
-.readmore{
-    text-align: center;
 
 
+
+
+
+
+
+@media (min-width: 992px) {
+    .readmore{
+        text-align: center;
+    }
+    .readmore-mobile{
+        display:none;
+    }
+    .appointmentbutton-desktop-faq{
+        background-color: #1AA8CC;
+        padding: 1rem 5.5rem;
+        border-radius: 20px;
+        font-family: 'Pathway Extreme';
+        font-size: 1rem;
+      }
+    
+   
 }
 
-.readmore .a{
-    width: 30%;
-    margin-top: 5%;
-}
+
+
+@media (max-width: 767.98px) { 
+    .readmore-desktop{
+        display:none;
+    }
+    .readmore-mobile{
+        text-align: center;
+    }
+    .appointmentbutton-mobile-faq{
+        background-color: #1AA8CC;
+        padding: 1rem 5.5rem;
+        border-radius: 20px;
+        font-family: 'Pathway Extreme';
+        font-size: 1rem;
+      }
+    }
+  
+

@@ -53,6 +53,14 @@
       .newsandblogssection-mobile{
 display:none;
       }
+      .newsandblogs-desktop-title{
+        font-size: 3rem;
+    line-height: 1;
+    margin-bottom: 3%;
+    font-family: 'Pathway Extreme';
+    color: #12697D;
+    font-weight: 500;
+      }
     }
 
 

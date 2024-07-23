@@ -68,9 +68,32 @@ font-size:3rem;
   flex-direction: column;
   color: white;
   display: flex;
-  
+  padding-left: 10%;
   justify-content: center;
+  font-size: 1.7rem;
+}
+.age-desktop{
+  margin-top:10%;
+  height: 0;
+  margin-bottom: 1.4rem;
+}
+.sex-desktop{
+  font-weight: bold;
+  
+  margin-bottom: 3.5rem;
+}
+.currency-desktop{
+  font-size: 0.8rem;
+  height: 0;
+  margin-bottom: 0.6rem;
+}
+.appointmentbutton-desktop-embrace{
+  background-color: #1AA8CC;
+  padding: 13px 20px;
+  border-radius: 20px;
+  font-family: 'Pathway Extreme';
   font-size: 22px;
+  width: 100%;
 }
 
 }

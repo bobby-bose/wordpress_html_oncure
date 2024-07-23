@@ -14,6 +14,14 @@
     display:none;
     
   }
+  .medicalnutritionplanning-desktop-title{
+    font-size: 3rem;
+    line-height: 1;
+    margin-bottom: 7%;
+    font-family: 'Pathway Extreme';
+    color: #12697D;
+    font-weight: 500;
+  }
 }
 
 

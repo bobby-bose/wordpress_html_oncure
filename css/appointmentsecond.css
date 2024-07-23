@@ -65,6 +65,14 @@ font-size: 22px;
 .appointmentsecond-mobile{
 display:none;
 }
+.appointmentbutton-desktop-faq{
+  background-color: #1AA8CC;
+padding: 13px 20px;
+border-radius: 20px;
+font-family: 'Pathway Extreme';
+font-size: 22px;
+width:40%;
+}
 }
 
 @media (max-width: 767.98px) { 
@@ -78,6 +86,7 @@ display:none;
   .appointmentsecond-mobile{
 display:flex;
 flex-direction: column;
+margin-top:10%;
   }
   .appointmentsecond-mobile img{
     width:100%;
