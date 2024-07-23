@@ -1,3 +1,4 @@
+@media (min-width: 992px) {
 .content-column p {
     margin-bottom: 0.5rem;
 }
@@ -7,4 +8,84 @@
 }
 .icon-row img {
     margin: 0 10px;
+}
+.footersection-mobile{
+    display:none;
+}
+
+
+.footercontainer{
+    background-color: #16677a;
+    color: white;
+    margin-top: 5%;
+    padding: 5%;
+}
+
+
+}
+@media (max-width: 767.98px) { 
+    .footersection{
+        display:none;
+    }
+.footercontainer-mobile{
+    background-color: #16677a;
+    color: white;
+    margin-top: 5%;
+    padding: 5%;
+}
+.img-fluid-mobile{
+    width:70%;
+}
+.img-fluid-uuu-mobile{
+    width:25%;
+}
+.footer-mobile-first{
+    margin-top:5%;
+    display: flex;
+    flex-direction: row;
+}
+.footer-mobile-second{
+    display: flex;
+    flex-direction: column;
+    margin-right: 5%;
+}
+.footer-mobile-third{
+    display: flex;
+    flex-direction: column;
+    
+}
+.footer-mobile-fourth{
+    display: flex;
+    flex-direction: row;
+}
+.footer-mobile-fifth{
+    display: flex;
+    flex-direction: column;
+}
+.footer-icon-mobile{
+    width:10%;
+    height:10%;
+}
+.footer-mobile-second p{
+    margin-bottom:0;
+}
+.need-support-mobile{
+margin-top:10%;
+}
+.hellooncure-mobile{
+    margin-top:3%;
+    margin-bottom:0;
+}
+.mobilenumber-mobile{
+
+}
+.oncurepreventive-mobile{
+    margin-top:3%;
+}
+.footer-icon-mobile{
+    margin-right:3%;
+}
+.termsofuse-mobile{
+    margin-bottom: 0;
+}
 }

@@ -1,3 +1,4 @@
+@media (min-width: 992px) {
 .faqsection{
     margin: 70px 10%;
 }
@@ -37,4 +38,69 @@
     font-size: 1.5em;
     margin: 0;
   }
+}
+  @media (max-width: 767.98px) { 
+    .faqsection{
+      display:none;
+    } 
+    
+    .faqsection-mobile{
+display:flex;
+flex-direction: column;
+    }
+   
 
+   .faqmiddletext-mobile{
+     font-size: 1rem;
+          }
+
+          .faqsection-mobile{
+            margin: 70px 10%;
+        }
+
+        .faq-mobile{
+          width: 100%;
+    margin-bottom: 3%;
+    font-size: 2rem;
+    line-height: 1;
+    color:#146172;
+      }
+      .faqcontainer-mobile {
+          background-color: white;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          padding: 20px;
+          margin-top:3%;
+        }
+
+        .faqrow-mobile {
+          display: flex;
+          align-items: center;
+        }
+        
+        .faqcolumn-mobile {
+          flex: 1;
+          text-align: center;
+        }
+        
+        .faqmiddle-mobile {
+          flex: 8;
+          padding: 0 10px;
+        }
+        
+        .image-mobile-1 {
+          width: 100%;
+         
+        }
+        .image-mobile-2 {
+          width: 70%;
+         
+        }
+        
+        .faqmiddletext-mobile {
+          font-size: 0.7em;
+          margin: 0;
+          font-family: Inter;
+  
+        }
+
+  }

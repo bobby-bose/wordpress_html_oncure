@@ -1,3 +1,4 @@
+@media (min-width: 992px) {
 .embracearesilientfuture-mobile {
 display:none;
 }
@@ -72,7 +73,7 @@ font-size:3rem;
   font-size: 22px;
 }
 
-
+}
 /* Responsive Styles */
 @media (max-width: 768px) {
     .embracearesilientfuture-desktop {
@@ -91,10 +92,22 @@ font-size:3rem;
     height: auto;
   }
   
-  .embracearesilientfuturetext-mobile,
+  .embracearesilientfuturetext-mobile
+  {
+    
+    font-size: 2.5em;
+    line-height: 1;
+    font-weight: bold;
+    font-weight: bolder;
+background: linear-gradient(to left, #93C83D 0%, #146172 100%);
+background-clip: text;
+-webkit-background-clip: text;
+color: transparent;
+  }
   .withourexclusive {
-    margin: 10px 0;
-    font-size: 1em;
+    font-size: 1.1rem;
+    line-height: 1;
+    color:#000000;
   }
   
   .embracearesilientfuturerowimagessection-mobile {
@@ -129,24 +142,37 @@ font-size:3rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.5);
+    align-items: baseline;
+    padding-left: 12%;
     color: white;
   }
   
-  .age-mobile,
-  .sex-mobile,
-  .currency-mobile,
-  .amount-mobile {
-    margin: 5px 0;
-  }
   
-  .appointmentbutton {
-    margin-top: 20px;
-  }
   
  
+  .age-mobile{
+    height: 0;
+    margin-bottom: 0.9rem;
+  }
+  .sex-mobile{
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  .currency-mobile{
+    font-size: 0.8rem;
+    height: 0;
+    margin-bottom: 0.6rem;
+  }
+ 
+  .appointmentbutton-mobile{
   
+    background-color: #1AA8CC;
+    padding: 1rem 5.5rem;
+    border-radius: 20px;
+    font-family: 'Pathway Extreme';
+    font-size: 1.1rem;
+}
  
   
     

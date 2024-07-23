@@ -1,3 +1,4 @@
+@media (min-width: 992px) {
 .onlinetumourboard-desktop{
   display:block;
     display: grid;
@@ -26,7 +27,7 @@ display:none;
 }
 
 
-
+}
 
 
 
@@ -43,7 +44,7 @@ display:none;
   text-align: center; /* Center-align the content */
   position: relative;
   display: inline-block; /* Ensure inline block to prevent full width */
-  width: 80vw; /* Set the width in viewport units for responsiveness */
+  
 }
 
 .onlinetumourboardimage-mobile {
@@ -65,8 +66,7 @@ display:none;
 }
 
 .onlinetumourboard-mobile-text {
-  margin-top: 2vh; /* Responsive top margin */
-  font-size: 2vh; /* Responsive font size */
+  text-align: initial;
   padding: 1vh 2vw; /* Responsive padding */
 }
 }

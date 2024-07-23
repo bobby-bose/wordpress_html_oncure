@@ -1,24 +1,32 @@
-let currentIndex = 0;
-const contents = document.querySelectorAll('.content-each');
+let currentContentIndex = 0;
+const contentElements = document.querySelectorAll('.content-each');
 
 function showContent(index) {
-    contents.forEach((content, i) => {
-        content.classList.remove('active');
-        if (i === index) {
-            content.classList.add('active');
-        }
-    });
+  contentElements.forEach((element, i) => {
+    element.classList.toggle('active', i === index);
+  });
 }
 
 function prevContent() {
-    currentIndex = (currentIndex > 0) ? currentIndex - 1 : contents.length - 1;
-    showContent(currentIndex);
+  currentContentIndex = (currentContentIndex - 1 + contentElements.length) % contentElements.length;
+  showContent(currentContentIndex);
 }
 
 function nextContent() {
-    currentIndex = (currentIndex < contents.length - 1) ? currentIndex + 1 : 0;
-    showContent(currentIndex);
+  currentContentIndex = (currentContentIndex + 1) % contentElements.length;
+  showContent(currentContentIndex);
 }
 
-// Initialize by showing the first content
-showContent(currentIndex);
+document.addEventListener('DOMContentLoaded', () => {
+  showContent(currentContentIndex);
+
+  // This part seems to refer to another element 'slider-track-mobile', 
+  // which was not included in the HTML provided.
+  // Ensure you have such an element if you need this functionality.
+  const sliderTrack = document.querySelector('.slider-track-mobile');
+  if (sliderTrack) {
+    const sliderContent = sliderTrack.innerHTML;
+    // Clone the content to create a seamless loop
+    sliderTrack.innerHTML += sliderContent;
+  }
+});

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Pathway+Extreme');
+@media (min-width: 992px) {
 .card {
     width: 90%;
     max-width: 250px;
@@ -75,11 +77,129 @@
     width: calc(15 * 200px + 14 * 50px); /* Width based on the number of cards and spacing */
     animation: scroll 30s linear infinite;
 }
-/* @keyframes scroll {
+
+
+.ourteam-desktop{
+color:#146172;
+font-size:1.5rem;
+font-family: 'Pathway Extreme';
+}
+
+@keyframes scroll {
     0% {
         transform: translateX(0);
     }
     100% {
         transform: translateX(-100%);
     }
-} */
+}
+.view-all-slider-mobile{
+  display:none;
+}
+}
+
+@media (max-width: 767.98px) { 
+.slider{
+display:none;
+}
+.slider-mobile {
+  overflow: hidden;
+  width: 100%;
+  background-color: #f8f8f8;
+  padding: 20px 0;
+}
+
+.slider-track-mobile {
+  display: flex;
+  width: calc(5 * 1000px + 4 * 40px);  
+  animation: scroll 30s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.slider {
+  display: none;
+}
+
+.ourteam-desktop {
+  color: #146172;
+  font-size: 1.5rem;
+  font-family: 'Pathway Extreme';
+  margin-top: 20%;
+}
+
+.card-mobile {
+  width: 100%;
+  max-width: 250px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-right: 40px;
+}
+
+.card-row-mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.card-row-mobile:first-child {
+  flex: 0 0 80%;
+}
+
+.card-row-mobile:last-child {
+  flex: 0 0 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.card-row-mobile img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.card-row-mobile .name-mobile {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.card-row-mobile .title-mobile {
+  margin-top: 5px;
+  color: #666;
+}
+
+.icon-column-mobile {
+  flex: 1 1 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #007bff;
+  color: white;
+}
+
+.icon-column-mobile:nth-child(2) {
+  background-color: #28a745;
+}
+
+.experticon {
+  font-size: 24px;
+  color: white;
+  margin: 10px 10px;
+}
+.view-all-slider-desktop{
+  display:none;
+}
+}

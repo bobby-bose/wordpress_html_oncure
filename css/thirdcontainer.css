@@ -82,8 +82,10 @@
         display: block;
         font-family:'Pathway Extreme', sans-serif;
         font-size: 2rem;
+        line-height: 1;
       }
       .thirdleft-column-mobile p{
+        margin-top:3%;
         text-align: center;
       }
    
@@ -113,26 +115,42 @@
     .thirdright-column-mobile {
         text-align: center;
     }
-    
-    .thirdright-column-mobile img {
-        width: 100%;
-        margin-bottom: 10px;
+
+    .thirdright-column-mobile p{
+        color: #12697D;
+    font-size: 1.5rem;
+    line-height: 1;
     }
     
+    .thirdright-column-mobile img {
+        width: 80%;
+        
+    }
+    
+
+.bookanappointment-mobile{
+    color:#474747;
+    font-size:1.5rem;
+}
+
+
+
+
     .secondlinesecondcolumnthirdsection-mobile {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-bottom: 10px;
+       
     }
     
-    .telecall-mobile {
+    /* .telecall-mobile {
         margin-bottom: 5px;
-    }
+    } */
     
-    span {
+    .callusormakeuse {
         font-family: 'Inter';
         font-weight: lighter;
+        font-size:0.9rem;
     }
     
   

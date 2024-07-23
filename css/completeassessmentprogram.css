@@ -1,5 +1,5 @@
 
-
+@media (min-width: 992px) {
 .completeassessmentprogram{
     display: grid;
           grid-template-columns: repeat(2, 1fr);
@@ -12,4 +12,28 @@
   }
   .completeassessmentprogram .title{
     font-size: 3rem;
+  }
+
+  .completeassessmentprogram-mobile{
+    display:none;
+  }
+}
+  @media (max-width: 767.98px) { 
+    .completeassessmentprogram{
+display:none;
+    }
+    .completeassessmentprogram-mobile{
+      display:flex;
+      flex-direction: column;
+      margin-top: 15%;
+    }
+    .completeassessmentprogram-mobile img{
+      width:100%;
+      height:30%;
+    }
+    .completeassessmentprogram-mobile p{
+      font-family: inter;
+    padding: 0 4%;
+    }
+
   }
